@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    width: 100%
+    width: 100%;
 }
 
 html{
@@ -54,15 +54,31 @@ p{
     padding:0;
     width: 25rem;
     margin: 3rem;
-    height: 55rem;
+    height: 35rem;
     text-align: center;
     font-size:large;
+    background-color:white;
+    text-decoration-color:black ;
 }
+
+.body{
+    background-color: black;
+    
+}
+
+.h2{
+    padding:1rem;
+    color: white;
+} 
 
 .img_inicio{
     height: 30rem;
     width: 40rem;
 }
+
+ul.footer_ul{
+    margin:0;
+} 
 
 .navbar-toggler{
     padding: 0;
@@ -87,17 +103,14 @@ footer{
 }
            /*  responsive mobile */
 
-@media(max-width: 320px){
+@media(max-width: 400px){
     .contenedor_img{
-        height:30rem;
+        height:35rem;
         margin: 2rem;
+        
 
     }
-
-    h2{
-        padding:1rem;
-    }
-
+   
     .header_menu__ul{
         font-size:small;
         text-align: center;
@@ -106,7 +119,7 @@ footer{
         margin-bottom: 3rem;
     }
     .nav-link{
-        color:black;
+        color:white;
         font-weight: bold;
         /* -webkit-text-stroke: 0.5px yellow; */
 
