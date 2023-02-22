@@ -12,15 +12,16 @@ li{
     list-style: none;
 }
 
+/* .main{
+    height:100%;
+} */
+
 h2,h3{
-/* text-decoration: underline; */
-    padding-bottom: 1rem;
-    padding-top: 3rem;
+    padding: 0rem;
 }
 
-
 .btn{
-    width: 15rem;
+    width: 10rem;
     color:black;
 }
 nav{
@@ -44,7 +45,7 @@ p{
     list-style: none;
     display:flex;
     font-size: xx-large;
-    text-align:justify;
+    text-align:center;
     background-color: yellow;
 
 }
@@ -61,8 +62,38 @@ p{
     text-decoration-color:black ;
 }
 
+.bebidas{
+    border: 1px solid black;
+    padding:0;
+    margin: 1rem;
+    height: 17rem;
+    text-align: center;
+    font-size:large;
+    background-color:white;
+    text-decoration-color:black ;
+}
+
+.salsas{
+    border: 1px solid black;
+    padding:0;
+    margin: 1rem;
+    height: 18rem;
+    text-align: center;
+    font-size:large;
+    background-color:white;
+    text-decoration-color:black ;
+
+
+}
+
+.img_salsas{
+    height: 9rem;
+    width: 10rem;
+}
+
 .body{
     background-color: black;
+    height: 100%;
     
 }
 
@@ -75,31 +106,33 @@ p{
     height: 30rem;
     width: 40rem;
 }
+.img_bebidas{
+    height: 7rem;
+    width: 7rem;
+}
 
-ul.footer_ul{
-    margin:0;
-} 
 
 .navbar-toggler{
     padding: 0;
 }
 ul{
-    padding:0;
+    padding:0rem;
+    margin: 0rem;
 }
 
 footer{
     background-color: yellow;
-    height:5rem;
+    height: 4rem;
 }
 
 .footer_ul{
     display:flex;
-    list-style: none;  
+    list-style: none; 
    /*  font-size:xx-large;  */  
 }
 
 .footer_ul__li{
-    width: 5rem;
+    width: 4rem;
 }
            /*  responsive mobile */
 
@@ -107,10 +140,12 @@ footer{
     .contenedor_img{
         height:35rem;
         margin: 2rem;
-        
-
     }
-   
+    .bebidas{
+    height:17rem;
+    width: 10rem;
+    margin: 1rem;
+   }
     .header_menu__ul{
         font-size:small;
         text-align: center;
@@ -122,7 +157,10 @@ footer{
         color:white;
         font-weight: bold;
         /* -webkit-text-stroke: 0.5px yellow; */
-
+    }
+    .nav-item{
+        background: rgba(78, 77, 77, 0.4);
+        /* opacity: 0.5 ; */
     }
     .footer_ul__li{
         width: 2rem;
