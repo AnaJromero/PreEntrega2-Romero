@@ -12,23 +12,14 @@ li{
     list-style: none;
 }
 
-/* .main{
-    height:100%;
-} */
-
-h2,h3{
-    padding: 0rem;
+h2,h6{
+    padding: 1rem;
 }
 
-.btn{
-    width: 10rem;
-    color:black;
-}
 nav{
     background-color: yellow;
     height: 5rem;
 }
-
 
 a{
     text-decoration:none;
@@ -40,81 +31,6 @@ p{
     size: 10rem;
 }
 
-
-.header_menu__ul{
-    list-style: none;
-    display:flex;
-    font-size: xx-large;
-    text-align:center;
-    background-color: yellow;
-
-}
-
-.contenedor_img{
-    border: 1px solid black;
-    padding:0;
-    width: 25rem;
-    margin: 3rem;
-    height: 35rem;
-    text-align: center;
-    font-size:large;
-    background-color:white;
-    text-decoration-color:black ;
-}
-
-.bebidas{
-    border: 1px solid black;
-    padding:0;
-    margin: 1rem;
-    height: 17rem;
-    text-align: center;
-    font-size:large;
-    background-color:white;
-    text-decoration-color:black ;
-}
-
-.salsas{
-    border: 1px solid black;
-    padding:0;
-    margin: 1rem;
-    height: 18rem;
-    text-align: center;
-    font-size:large;
-    background-color:white;
-    text-decoration-color:black ;
-
-
-}
-
-.img_salsas{
-    height: 9rem;
-    width: 10rem;
-}
-
-.body{
-    background-color: black;
-    height: 100%;
-    
-}
-
-.h2{
-    padding:1rem;
-    color: white;
-} 
-
-.img_inicio{
-    height: 30rem;
-    width: 40rem;
-}
-.img_bebidas{
-    height: 7rem;
-    width: 7rem;
-}
-
-
-.navbar-toggler{
-    padding: 0;
-}
 ul{
     padding:0rem;
     margin: 0rem;
@@ -125,46 +41,130 @@ footer{
     height: 4rem;
 }
 
+.header_menu__ul{
+    list-style: none;
+    display:flex;
+    font-size: xx-large;
+    text-align:center;
+    background-color: yellow;
+}
+
+.contenedor_img{
+    padding:0;
+    width: 15rem;
+    margin: 3rem;
+    height: 30rem;
+    text-align: center;
+    font-size:large;
+    background-color:white;
+    text-decoration-color:black ;
+}
+
+.img_inicio{
+    height: 15rem;
+    width: 15rem;
+}
+
+.contenedor_bebidas{
+    padding:0;
+    margin: 2rem;
+    height: 30rem;
+    width: 20rem;
+    text-align: center;
+    font-size:large;
+    background-color:white;
+    text-decoration-color:black ;
+}
+
+.img_bebidas{
+    height: 20rem;
+    width: 20rem;
+}
+
+.contenedor_salsas{
+    padding:0;
+    margin: 1rem;
+    height: 18rem;
+    text-align: center;
+    font-size:large;
+    background-color:white;
+    text-decoration-color:black ;
+}
+
+.img_salsas{
+    height: 9rem;
+    width: 10rem;
+}
+
+.btn{
+    width: 10rem;
+    color:black;
+}
+
+.body{
+    background-color: black;
+}
+
+.h2{
+    padding:1rem;
+    color: white;
+} 
+
+.navbar-toggler{
+    padding: 0;
+}
+
 .footer_ul{
     display:flex;
-    list-style: none; 
-   /*  font-size:xx-large;  */  
+    list-style: none;  
 }
 
 .footer_ul__li{
     width: 4rem;
 }
-           /*  responsive mobile */
+                                        /*  responsive mobile */
 
 @media(max-width: 400px){
     .contenedor_img{
         height:35rem;
         margin: 2rem;
     }
+
     .bebidas{
-    height:17rem;
-    width: 10rem;
-    margin: 1rem;
-   }
+        height:17rem;
+        width: 10rem;
+        margin: 1rem;
+    }
+
+    .salsas{
+        width: 10rem;
+        padding:0;
+        margin: 1rem;
+        height: 15rem;
+    }
+
     .header_menu__ul{
         font-size:small;
         text-align: center;
     }
+
     .container{
         margin-bottom: 3rem;
     }
+
     .nav-link{
         color:white;
         font-weight: bold;
-        /* -webkit-text-stroke: 0.5px yellow; */
     }
+
     .nav-item{
         background: rgba(78, 77, 77, 0.4);
-        /* opacity: 0.5 ; */
     }
+
     .footer_ul__li{
         width: 2rem;
     }
+
     footer{
         height: 2rem;
     }
@@ -172,5 +172,4 @@ footer{
     .row{
         --bs-gutter-x:0rem;
     }
-
 }
